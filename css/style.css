@@ -1,1 +1,67 @@
 /* Ini CSS */
+
+main {
+    padding: 32px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+
+    /* For image icon */
+    background-image: url(https://picsum.photos/500/500);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+
+    /* For background container*/
+    background-image: url(../assets/download.png);
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+     text-align: center;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+    /* For image icon */
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.profile-1 {
+    background-image: url(../assets/WhatsApp\ Image\ 2024-06-23\ at\ 15.33.15_e18cfc95.jpg);
+}
+
+.profile-2 {
+    background-image: url(../assets/WhatsApp\ Image\ 2024-07-01\ at\ 20.10.25_7535d1e5.jpg);
+}
+
+.profile-3 {
+    background-image: url(../assets/Slide1.PNG);
+}

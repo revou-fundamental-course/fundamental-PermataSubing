@@ -1,14 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portofolio Mata</title>
+  <link rel="stylesheet" href="CSS/style.CSS">
 </head>
 
 <body>
-  
+  <!-- Ini Header Nav -->
+  <header class="nav-container">
+      <div class="logo-icon"></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="">Our Profile</a>
+      <a href="">Portofolio</a>
+      <a href="">Message me</a>
+    </nav>
+  </header>
+  <hr />
+
+  <main>
+    <!-- Ini Home Content -->
+    <section>
+      <header>
+        <h1>Hi User, Welcome to Website</h1>
+      </header>
+
+      <article>
+        <p>Ini adalah website portofolio saya</p>
+
+        <div class="banner-container"></div>
+      </article>
+    </section>
+
+  <hr />
+
+    <!-- Ini Our Profile Content -->
+    <section>
+      <header>
+        <h1>Our Profile</h1>
+      </header>
+
+      <article class="profile-content">
+        <div class="profile-item">
+          <div class="profile-icon profile-1"></div>
+          <p>Profile 1</p>
+        </div>
+
+        <div>
+          <div class="profile-icon profile-2"></div>
+          <p>Profile 2</p>
+        </div>
+
+        <div>
+          <div class="profile-icon profile-3"></div>
+          <p>Profile 3</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Ini Portfolio Content -->
+
+    <!-- Ini Message US Content -->
+     <section>
+      <header>
+        <h1>Message Us</h1>
+      </header>
+
+      <article style="display: flex; justify-content: space-between;">
+        <form>
+          <table>
+            <tr>
+              <td><label for="firstname">Firstname:</label></td>
+              <td><input type="text" id="firstname" required></td>
+            </tr>
+            <tr>
+              <td><label for="lastname">Lastname:</label></td>
+              <td><input type="text" id="lastname" required></td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                <button type="button" onclick="nextSlide(1);">Submit</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+
+        <div id="result"style="border: 1px solid; height: 100px; width: 100px></div>
+      </article>
+     </section>
+
+  </main>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
